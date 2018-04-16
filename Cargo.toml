@@ -5,3 +5,5 @@ authors = ["Nathan Perkins <NathanielJPerkins@gmail.com>"]
 
 [dependencies]
 chrono = "0.4"
+diesel = {version = "1.0.0", features = ["postgres"]}
+dotenv = "0.9.0"
